@@ -270,6 +270,7 @@ export default function RecommendBox() {
                 <input
                   className="w-full border-none rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-100 py-2 pl-3 pr-10 text-sm leading-5 text-gray-900"
                   defaultValue={context}
+                  placeholder="enter context here..."
                   onChange={(event) => setContext(event.target.value)}
                 />
                 <button
