@@ -56,10 +56,10 @@ INDEX_ID&recordId=RECORD_ID&context=CONTEXT
 
 ### Response
 
-| Object          | Description                                                                                                                                                                                                                                                    |
-| --------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| recommendations | Contains an array of suggestions for queries based on the query text. Each element of the array is an object with subject and displaySubject parameters. The suggest param is plain text and displaySuggest has highlighted words with the html '<b>' element. |
-| error           | Returns an error message if any error occurs on the server.                                                                                                                                                                                                    |
+| Object          | Description                                                                                                                                                                                |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| recommendations | Contains an array of records for queries based on the semantic search query or the selected item. Each element of the array is an object with recordId and requested fields as parameters. |
+| error           | Returns an error message if any error occurs on the server.                                                                                                                                |
 
 ### Response JSON Structure
 
